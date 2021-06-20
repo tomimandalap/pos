@@ -1,0 +1,18 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+// dolar diunakan untuk menampung warna
+$colorprimary: #e53935;
+
+.alert {
+  color: $colorprimary;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.list:hover {
+  background: #f5f5f5;
+}

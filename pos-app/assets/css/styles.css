@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+* {
+  font-family: 'Poppins';
+  text-decoration: none;
+  list-style: none;
+  box-shadow: none !important;
+}
+
+.img-form {
+  height: 640px;
+  background-image: url('../images/bg-login.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
