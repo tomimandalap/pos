@@ -46,3 +46,18 @@ You can find the documentation API on [this](https://documenter.getpostman.com/v
 3. Page Cart
 
 ---
+
+### ```Installing```
+Clone project 
+```
+git clone https://github.com/tomimandalap/pos.git
+```
+```
+npm install
+```
+or
+```
+yarn install
+```
+
+---
