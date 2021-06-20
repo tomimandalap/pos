@@ -1,5 +1,5 @@
 ### ```Build with```
-- [bcryot](https://www.npmjs.com/package/bcrypt)
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
 - [body-parser](https://www.npmjs.com/package/body-parser)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [expressjs](https://www.npmjs.com/package/express)
