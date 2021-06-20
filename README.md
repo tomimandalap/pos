@@ -34,11 +34,13 @@ You can find the documentation API on [this](https://documenter.getpostman.com/v
 5. Page Report
     - Tabel Get All Order
 
+
 **For Cashier**: 
 1. Page dasboard
 2. Page Menus
 3. Page Cart
 4. Page Orders
+
 
 **For Customer**: 
 1. Page dasboard
@@ -61,3 +63,14 @@ yarn install
 ```
 
 ---
+
+###```Demo```
+1. Admim
+    - Email : admin@gmail.com
+    - Pass : passworD_1
+2. Admim
+    - Email : cashier@gmail.com
+    - Pass : passworD_1
+3. Admim
+    - Email : user@gmail.com
+    - Pass : passworD_1
