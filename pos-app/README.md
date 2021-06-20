@@ -1,20 +1,44 @@
 # pos-app
 
-## Build Setup
+### ```Build with```
+- [@nuxtjs.axios](https://www.npmjs.com/package/@nuxtjs/axios)
+- [nuxt](https://nuxtjs.org/docs/2.x/get-started/installation)
+- [vuex-easy-access](https://www.npmjs.com/package/vuex-easy-access)
+- [Vuetify](https://vuetifyjs.com/en/getting-started/installation/#nuxt-install)
 
-```bash
-# install dependencies
-$ npm install
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+### ```Installing```
+Clone project 
+```
+git clone https://github.com/tomimandalap/pos.git
+```
+```
+npm install
+```
+or
+```
+yarn install
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+### ```Starting```
+Create an **.env** file first before running this application.
+```
+  Please copy and paste it into your .env file.
+  
+  VUE_APP_BASEURL=http://localhost:5005 *
+  
+  Note: 
+  * URL running on expressjs
+  
+```
+
+To start use
+```
+npm run dev
+```
+or
+```
+yarn dev
+```
+
+---
