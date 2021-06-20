@@ -7,7 +7,7 @@ module.exports = {
         {
           From: {
             Email: envEMAIL,
-            Name: "Admin Burgermax",
+            Name: "Admin Coffee Shop",
           },
           To: [
             {
@@ -19,9 +19,9 @@ module.exports = {
           HTMLPart: `
           <h4>Hello, ${username}!</h4>
           <p>Select user access and verify your account, please click : </p>
-          <p>1. <a href="${process.env.PATHURL}/activation/${secret}/${mail}/Cashier/1">Cashier Burgermax</a></p>
+          <p>1. <a href="${process.env.PATHURL}/activation/${secret}/${mail}/Cashier/1">Cashier Coffee</a></p>
           <p>or</p>
-          <p>2. <a href="${process.env.PATHURL}/activation/${secret}/${mail}/Customer/2">Customer Burgermax</a></p>`,
+          <p>2. <a href="${process.env.PATHURL}/activation/${secret}/${mail}/Customer/2">Customer Coffee</a></p>`,
           CustomID: "AppGettingStartedTest",
         }
       ]
