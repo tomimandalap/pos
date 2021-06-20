@@ -65,6 +65,8 @@ yarn install
 ---
 
 ### ```Demo```
+Demo video on [youtube](https://youtu.be/0Wg_6e0NPBc)
+
 1. Admin
     - Email : admin@gmail.com
     - Pass : passworD_1
