@@ -64,13 +64,13 @@ yarn install
 
 ---
 
-###```Demo```
-1. Admim
+### ```Demo```
+1. Admin
     - Email : admin@gmail.com
     - Pass : passworD_1
-2. Admim
+2. Cashier
     - Email : cashier@gmail.com
     - Pass : passworD_1
-3. Admim
+3. User
     - Email : user@gmail.com
     - Pass : passworD_1
