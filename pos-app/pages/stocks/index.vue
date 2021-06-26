@@ -36,7 +36,11 @@
         :search="setData.keyword"
         :items-per-page="5"
         class="elevation-1"
-      ></v-data-table>
+      >
+        <template #[`item.created`]="{ item }">
+          <span>{{ setFormatDate(item.created) }}</span>
+        </template>
+      </v-data-table>
     </v-card>
   </v-container>
 </template>
@@ -44,12 +48,13 @@
 import Breadcrumbs from '@/components/breadcrumbs'
 import Loading from '@/components/loading'
 import defaultdata from '@/helpers/defaultdata'
+import formatdate from '@/helpers/formatdate'
 export default {
   components: {
     Breadcrumbs,
     Loading,
   },
-  mixins: [defaultdata],
+  mixins: [defaultdata, formatdate],
   middleware: 'auth',
   data() {
     return {
