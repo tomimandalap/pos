@@ -34,11 +34,13 @@ You can find the documentation API on [this](https://documenter.getpostman.com/v
 5. Page Report
     - Tabel Get All Order
 
+
 **For Cashier**: 
 1. Page dasboard
 2. Page Menus
 3. Page Cart
 4. Page Orders
+
 
 **For Customer**: 
 1. Page dasboard
@@ -46,3 +48,31 @@ You can find the documentation API on [this](https://documenter.getpostman.com/v
 3. Page Cart
 
 ---
+
+### ```Installing```
+Clone project 
+```
+git clone https://github.com/tomimandalap/pos.git
+```
+```
+npm install
+```
+or
+```
+yarn install
+```
+
+---
+
+### ```Demo```
+Demo video on [youtube](https://youtu.be/0Wg_6e0NPBc)
+
+1. Admin
+    - Email : admin@gmail.com
+    - Pass : passworD_1
+2. Cashier
+    - Email : cashier@gmail.com
+    - Pass : passworD_1
+3. User
+    - Email : user@gmail.com
+    - Pass : passworD_1
